@@ -16,7 +16,7 @@ class ViewController: UITableViewController {
         
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
         
-        titles = ["开发中常见用法","常见函数","监听事件","代替通知","监听文本框文字改变","处理多个请求，都返回结果的时候，统一做处理"]
+        titles = ["开发中常见用法","常见函数","MVVM1-登录","MVVM2-请求数据，刷新列表"]
         
     }
     
